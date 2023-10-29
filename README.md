@@ -21,7 +21,7 @@ Interface de gerenciamento para restaurantes, permitindo o acompanhamento de ped
 Oferece funcionalidade de geração de relatórios e análises para fornecer insights valiosos para restaurantes e estabelecimentos de comida.
 
 ## Tecnologias Utilizadas
-[![SkillIcons](https://skillicons.dev/icons?i=java,scala,postgresql,aws,spring,docker)](https://skillicons.dev)<br/>
+[![SkillIcons](https://skillicons.dev/icons?i=java,scala,postgresql,heroku,spring,docker)](https://skillicons.dev)<br/>
 
 ## Resultados e Impacto
 O projeto resultou em uma plataforma de entrega de alimentos altamente funcional que oferece uma experiência similar ao iFood. Isso permitiu que restaurantes e estabelecimentos de comida expandissem seus negócios, alcançassem um público mais amplo e oferecessem pedidos de comida online de maneira eficiente. A integração de ferramentas de pagamento seguro e rastreamento de pedidos proporcionou aos clientes uma experiência conveniente e confiável.
