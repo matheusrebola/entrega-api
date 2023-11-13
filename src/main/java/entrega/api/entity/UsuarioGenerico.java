@@ -1,37 +1,32 @@
 package entrega.api.entity;
 
-import java.math.BigDecimal;
 import java.util.UUID;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity
-@Table(name="tb_cliente")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Valor {
+public class UsuarioGenerico {
 	@Id
-	private UUID id;
+	protected UUID id;
 	
-	private BigDecimal preco;
+	protected String nome;
 	
-	private Entrega entrega;
+	protected String sobrenome;
 	
-	private Combo combo;
+	protected Documento documento;
 	
-	private Produto produto;
+	protected Endereco endereco;
 	
-	private Data data;
+	protected Data data;
 	
-	@Column(name="ativo")
+	@Column(name="vl_ativo")
 	private boolean ativo;
 }
