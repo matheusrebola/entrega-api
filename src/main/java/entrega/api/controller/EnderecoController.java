@@ -1,5 +1,5 @@
 package entrega.api.controller;
 
-public class ClienteController {
+public class EnderecoController {
 
 }

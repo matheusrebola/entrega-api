@@ -1,4 +1,5 @@
 package entrega.api.controller;
 
-public class PercursoController {
+public class ProdutoController {
+
 }
